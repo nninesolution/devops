@@ -17,8 +17,13 @@
 - Infrastructure as Code (IaC) and Configuration Management.
 - Automated Testing and Quality Assurance (QA) practices.
 
+## Building Development Environments
+- Install Virtualbox Software
+- Setup Vagrant with Virtualbox
+- Cluster node setup in Vagrantfile
+
 ## Module 3: Continuous Integration (CI)
-- Setting up CI pipelines with popular tools like Jenkins, GitLab CI/CD, or CircleCI.
+- Setting up CI pipelines with popular tools like Jenkins, GitLab CI/CD, and GitHub Actions.
 - Building, testing, and deploying applications automatically.
 - Code versioning and branch management strategies.
 - Monitoring and reporting CI pipeline results.
