@@ -1,72 +1,169 @@
-# DevOps Syllabus
+# DevOps Essentials
 
-## Course Overview
-- Introduction to DevOps principles, practices, and culture.
-- Understanding the benefits and challenges of implementing DevOps.
-- Exploring various tools and technologies used in the DevOps ecosystem.
+## COURSE OUTLINE
+### Introduction  								15 Min
+- Course Features and Tools
+- What is DevOps?
+- A brief overview of the history of DevOps
 
-## Module 1: Introduction to DevOps
-- Evolution of DevOps and its significance in modern software development.
-- DevOps principles and core concepts.
-- Collaboration and communication in DevOps teams.
-- Continuous Integration (CI) and Continuous Delivery (CD) concepts.
+### DevOps Culture								15 Min
+- The Goals of DevOps
+- DevOps vs Traditional Silos
 
-## Module 2: DevOps Culture and Practices
-- Building a DevOps culture within organizations.
-- Agile methodologies and their integration with DevOps.
-- Infrastructure as Code (IaC) and Configuration Management.
-- Automated Testing and Quality Assurance (QA) practices.
+### DevOps Concepts and Practises				45 Min
+- Build Automation
+- Continuous Integration
+- Continuous Delivery and Continuous Deployment
+- Infrastructure as Code
+- Configuration Management
+- Container Orchestration
+- Monitoring
+- Microservices 
+- HOL: Setting up Simple DevOps Pipeline
 
-## Building Development Environments
-- Install Virtualbox Software
-- Setup Vagrant with Virtualbox
-- Cluster node setup in Vagrantfile
+### DevOps Tools 								45 Min
+- Introduction to DevOps Tools
+- Tools for Build Automation and Continuous Integration
+- Tools for Congiguration Management
+- Tools for Virtualization and Containerization
+- Tools for Monitoring
+- Tools for Orchestration
 
-## Module 3: Continuous Integration (CI)
-- Setting up CI pipelines with popular tools like Jenkins, GitLab CI/CD, and GitHub Actions.
-- Building, testing, and deploying applications automatically.
-- Code versioning and branch management strategies.
-- Monitoring and reporting CI pipeline results.
+### DevOps and the Cloud 						30 Min
+- DevOps and the Cloud
+- DevOps and Google Cloud Platform
+- DevOps and Microsoft Azure
+- DevOps and Amazon Web Services
 
-## Module 4: Continuous Delivery (CD)
-- Introduction to CD and its role in software delivery.
-- Designing CD pipelines for different environments (development, staging, production).
-- Release management and version control.
-- Deployment strategies and blue-green deployments.
+## SETTING UP LAB ENVIRONMENT					1:30 Min
+### Vagrant and VirtualBox
+- Installation
+- The Basics
+    - Boxes
+    - The Vagrantfile
+- HOL: Managing a Vagrant Environment
+- HOL: Creating a Basic Vagrantfile
 
-## Module 5: Infrastructure Automation and Deployment
-- Infrastructure provisioning with tools like Ansible, Terraform, or AWS CloudFormation.
-- Containerization with Docker and container orchestration with Kubernetes.
-- Managing application and infrastructure configurations.
-- Monitoring and logging in distributed systems.
+## DEVOPS TOOLS
+### Packer and Cloud Init                       2:00:00 
+- What is Packer?
+- Installing and Creating a Packer Template
+- What is Cloud Init?
+- HOL: Create an AMI image using packer
 
-## Module 6: Cloud and DevOps
-- Cloud computing fundamentals (AWS, Azure, Google Cloud Platform).
-- Integrating cloud services with DevOps practices.
-- Scaling applications in the cloud.
-- Disaster recovery and high availability strategies.
+### Configuration Management with Ansible       3:00:00
+- What is Configuration Management
+- Introduction to Puppet, Chef
+- What is Ansible?
+- HOL: Sample Ansible Playbook
 
-## Module 7: DevOps Security and Compliance
-- Security best practices in DevOps.
-- Incorporating security into CI/CD pipelines.
-- Compliance and regulatory considerations.
-- Security monitoring and incident response.
+### Docker and Kubernetes 						4:00:00
+- What is Docker?
+- Docker images
+- Docker Volumes
+- Docker Networks
+- Build Docker image using Dockerfile
+- What is Kubernetes
+- Pod, ReplicaSets, and Deployments
+- HOL: Creating Dockerfile
+- HOL: Working with Docker Volumes
+- HOL: Working with Docker Networks
 
-## Module 8: DevOps Tools and Technologies
-- Overview of popular DevOps tools: Git, Docker, Jenkins, Ansible, Kubernetes, etc.
-- Evaluating and selecting appropriate tools for specific use cases.
-- Integrating different tools within the DevOps toolchain.
-- Exploring emerging trends and technologies in DevOps.
+### Docker Compose								1:30:00
+- Installing Docker compose
+- Run multi-container Docker applications using dockerfile
 
-## Module 9: Case Studies and Practical Projects
-- Analyzing real-world DevOps case studies.
-- Hands-on projects to apply DevOps principles and practices.
-- Collaborative project work to simulate a DevOps environment.
-- Presenting and documenting project outcomes.
+## CI/CD and Jenkins	
 
-## Assessment and Certification
-- Assessments to evaluate understanding and practical skills.
-- Final project submission and evaluation.
-- Certification of completion based on assessment results.
+### Jenkins Basic								1:00:00
+- Jenkins Installation
+- Jenkins UI
+	- Exploring the GUI
+	- System Configuration
+	- Job Configuration
 
-Note: This syllabus is just a sample and can be customized based on the specific requirements of the DevOps course or program.
+### Jenkins Plugins								00:30:00
+- Managing Plugins
+- Updating Plugins
+- Adding Plugins
+
+### Freetyle Jobs								00:45:00
+- Basic Job structure
+- Parameters
+- Notifications
+- HOL: Building a Freestyle Job in Jenkins
+
+### Agents and Distributed Builds 				1:00:00
+- Setting up Build Agent
+- Distributing Build
+- Monitoring Build Agents
+- HOL: Distributing a Jenkins Build
+
+### Source Code Management, Build Tools, and Test 00:45:00
+- Leveraging SCM in Builds
+- Configuring Build Tools
+- HOL: Building with Git in Jenkins
+
+## Upstream, Downstream, and Triggers			1:30:00
+- Linking Jobs
+- Automating Jobs
+- HOL: Linking Jobs in Jenkins
+
+## Git Basics
+
+### Installation of Git 					00:20:00
+- Redhat 
+- Debian
+- MacOS
+- Windows
+
+### The Basics of Using Git					01:30:00
+- Understanding the Git Filesystem
+- Creating a Local Repository (Empty)
+- Basic Configuration of Git
+- Adding Files to Project
+- The Status of your project
+- Commiting to Git
+- Ignoring Certain File Types
+- HOL: Creating Local Repositories with Git and Adding/Checking in Files
+
+### Tags, Branching, Merging and Reverting 	00:45:30
+- Using Tags
+- Using Branches
+- Merging Branches
+- Rebasing
+- Reverting a Commit
+- Using the 'diff' Command
+
+### Git's Logs and Auditing					15:00
+- Using Git's Logs
+
+### Cloning Repositories 					1:00:00
+- Cloning Local Repositories
+- Cloning Remote Repositories over HTTPS, SSH
+- Forking
+- HOL: Securing Your Github Account with SSH Keys
+- HOL: Cloning a Remote GitHub Repository
+
+### Push, Pull, and Tracking Remote Repositories 	00:24:00
+- Tracking Remote Repositories
+- Pushing to Remote Repositories
+- Pull Requests
+
+### Setting Up and Using a GitLab Server			30:00
+- What is GitLab?
+- Set up locally hosted GitLab server
+- Adding Users and Groups in GitLab
+- Creating and Managing Projects
+- Push Changes and Merge with GitLab
+
+### Git Branching Strategy							15:00
+- What is a branching strategy?
+- Why you need a branching strategy
+- What are some common Git branching strategies?
+	- GitFlow
+	- GitHub Flow
+	- GitLab Flow
+	- Trunk-based Development
+	
+- 
