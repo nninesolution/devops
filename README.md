@@ -24,7 +24,7 @@
 ### DevOps Tools 								45 Min
 - Introduction to DevOps Tools
 - Tools for Build Automation and Continuous Integration
-- Tools for Congiguration Management
+- Tools for Configuration Management
 - Tools for Virtualization and Containerization
 - Tools for Monitoring
 - Tools for Orchestration
