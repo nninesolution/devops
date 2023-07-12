@@ -32,7 +32,7 @@
 # Source Code Management 
 ## Git Basics
 
-### The Basics of Using Git					01:30:00
+### The Basics of Using Git					1 Hr 30 Min
 - Understanding the Git Filesystem
 - Creating a Local Repository (Empty)
 - Basic Configuration of Git
@@ -42,7 +42,7 @@
 - Ignoring Certain File Types
 - HOL: Creating Local Repositories with Git and Adding/Checking in Files
 
-### Tags, Branching, Merging and Reverting 	00:45:30
+### Tags, Branching, Merging and Reverting 	45 Min
 - Using Tags
 - Using Branches
 - Merging Branches
@@ -50,22 +50,22 @@
 - Reverting a Commit
 - Using the 'diff' Command
 
-### Git's Logs and Auditing					00:30:00
+### Git's Logs and Auditing					15 Min
 - Using Git's Logs
 
-### Cloning Repositories 					1:00:00
+### Cloning Repositories 					1 Hr
 - Cloning Local Repositories
 - Cloning Remote Repositories over HTTPS, SSH
 - Forking
 - HOL: Securing Your Github Account with SSH Keys
 - HOL: Cloning a Remote GitHub Repository
 
-### Push, Pull, and Tracking Remote Repositories 	00:30:00
+### Push, Pull, and Tracking Remote Repositories 	30 Min
 - Tracking Remote Repositories
 - Pushing to Remote Repositories
 - Pull Requests
 
-### Git Branching Strategy							00:30:00
+### Git Branching Strategy							30 Min
 - What is a branching strategy?
 - Why you need a branching strategy
 - What are some common Git branching strategies?
@@ -75,7 +75,7 @@
 	- Trunk-based Development
 
 # Build Automation and Continuous Integration
-## Build Automation									2:00:00
+## Build Automation									2 Hr
 - Introducing Build Automation 
 - Build Automation Tools
 	- gradle
@@ -86,7 +86,7 @@
 - HOL: Creating Build Automation with Gradle
 - HOL: Automate AMI image creation with Packer
 
-## Continuous Integration & Jenkins Pipelines		3:00:00
+## Continuous Integration & Jenkins Pipelines		3 Hr
 - CI Overview
 - Installing Jenkins
 - Scripted vs. Declarative Pipelines
@@ -113,7 +113,7 @@ Jenkins on the Command Line
 	- Using the Jenkins API
 	- Using the Jenkins CLI
 
-## Continuous Delivery and Continuous Deployment					3:00:00
+## Continuous Delivery and Continuous Deployment					3 Hr
 	- What is Continuous Delivery and Continuous Deployment
 	- Continous Delivery vs. Continuous Deployment
 	- Bringing CI and CD (and CD) Together
@@ -124,18 +124,18 @@ Jenkins on the Command Line
 	- HOL: Provide Continuous Delivery with GitHub and Terraform Cloud for AWS
 
 # Infrastructure Automation	
-## DevOps Tools for Infrastructure Automation		00:30:00
+## DevOps Tools for Infrastructure Automation		30 Min
 	- Infrastructure Provisioning
 	- Configuration Management
 	- Continuous Integration/Deployment
 	- Config/Secret Management
 	- Logging and Monitoring
 
-## Understanding Infrastructure as a code				00:30:00
+## Understanding Infrastructure as a code				30 Min
 	- IaC and Its Benefits
 	- Cloud Agnostic IaC with Terraform
 
-## IaC with Terraform									06:00:00
+## IaC with Terraform									6 Hr
 	- What is the Terraform Workflow?
 	- Terraform Key Concepts: Plan, Apply, and Destroy
 	- Resource Addressing in Terrafrom: Understanding Terraform Code
@@ -154,7 +154,7 @@ Jenkins on the Command Line
 		- Terraform Dynamic Blocks
 	- HOL: Using Terraform Dynamic Blocks and Built-in Functions to Deploy to AWS
 
-## Configuration Management with Ansible				06:00:00
+## Configuration Management with Ansible				6 Hr
 	- What is Configuration Management?
 	- What is Ansible?
 	- Installation and Configuration
@@ -179,7 +179,7 @@ Jenkins on the Command Line
 
 # Containers and Orchestration
 
-## Docker Community Edition Installation and Configuration   2:00:00
+## Docker Community Edition Installation and Configuration   2 Hr
 	- Intalling Docker Community Edition
 	- Docker Basics
 		- Docker Commands
@@ -194,7 +194,7 @@ Jenkins on the Command Line
 	- Namespaces and Cgroups
 	- HOL: Installing and Configuring the Docker Engine
 
-## Image Creation, Management, and Registry       3:00:00
+## Image Creation, Management, and Registry       3 Hr
 	- Introduction to Docker Images
 	- The Compoments of a Dockerfile
 	- More Dockerfile Directives 
@@ -207,7 +207,7 @@ Jenkins on the Command Line
 	- HOL: Building a Private Docker Registry
 	- HOL: Building Crosplatform Images Using Multi-Stage Build
 
-## Docker Compose 								2:00:00
+## Docker Compose 								2 Hr
 	- Introduction to Docker Service
 	- Compose Commands
 	- Creating a Compose File
@@ -216,7 +216,7 @@ Jenkins on the Command Line
 	- 
 
 
-## Kubernetes - Container Orchestrator						10:00:00
+## Kubernetes - Container Orchestrator						10 Hr
 	- Kubernetes Fundamentals
 		- Kubernetes Fundamentals Intro
 		- Exploring Kubernetes Architecture
@@ -251,7 +251,7 @@ Jenkins on the Command Line
 	- HOL: Troubleshooting a Broker Kubernetes Application
 
 # Monitoring and Logging
-## Monitoring with Prometheous and Graphana			7:00:00
+## Monitoring with Prometheous and Graphana			7 Hr
 	- Monitoring Basics
 		- Push or Pull
 		- Service Discovery
@@ -284,7 +284,7 @@ Jenkins on the Command Line
 		- HOL: Using Grafana to Visualize Prometheous Data
 	
 
-### DevOps and the Cloud 						8:00:00
+### DevOps and the Cloud 						8 Hr
 - DevOps and the Cloud
 - DevOps and Google Cloud Platform
 	- HOL: Running Microservice in GKS using Helm
