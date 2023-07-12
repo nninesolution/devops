@@ -19,7 +19,7 @@
 - Configuration Management
 - Container Orchestration
 - Monitoring
-- Microservices 
+- Microservices
 
 ### DevOps Tools 								45 Min
 - Introduction to DevOps Tools
@@ -29,7 +29,7 @@
 - Tools for Monitoring
 - Tools for Orchestration
 
-# Source Code Management 
+# Source Code Management
 ## Git Basics
 
 ### The Basics of Using Git					1 Hr 30 Min
@@ -76,7 +76,7 @@
 
 # Build Automation and Continuous Integration
 ## Build Automation									2 Hr
-- Introducing Build Automation 
+- Introducing Build Automation
 - Build Automation Tools
 	- gradle
 	- npm
@@ -114,175 +114,173 @@ Jenkins on the Command Line
 	- Using the Jenkins CLI
 
 ## Continuous Delivery and Continuous Deployment					3 Hr
-	- What is Continuous Delivery and Continuous Deployment
-	- Continous Delivery vs. Continuous Deployment
-	- Bringing CI and CD (and CD) Together
-	- Continuous Delivery Release Automation
-		- Automated Deployment
-		- Configuration Management
-	- HOL: Implementing Automated Deployment Through a Jenkins Pipeline
-	- HOL: Provide Continuous Delivery with GitHub and Terraform Cloud for AWS
-
-# Infrastructure Automation	
-## DevOps Tools for Infrastructure Automation		30 Min
-	- Infrastructure Provisioning
+- What is Continuous Delivery and Continuous Deployment
+- Continous Delivery vs. Continuous Deployment
+- Bringing CI and CD (and CD) Together
+- Continuous Delivery Release Automation
+	- Automated Deployment
 	- Configuration Management
-	- Continuous Integration/Deployment
-	- Config/Secret Management
-	- Logging and Monitoring
+- HOL: Implementing Automated Deployment Through a Jenkins Pipeline
+- HOL: Provide Continuous Delivery with GitHub and Terraform Cloud for AWS
+
+# Infrastructure Automation
+## DevOps Tools for Infrastructure Automation		30 Min
+- Infrastructure Provisioning
+- Configuration Management
+- Continuous Integration/Deployment
+- Config/Secret Management
+- Logging and Monitoring
 
 ## Understanding Infrastructure as a code				30 Min
-	- IaC and Its Benefits
-	- Cloud Agnostic IaC with Terraform
+- IaC and Its Benefits
+- Cloud Agnostic IaC with Terraform
 
 ## IaC with Terraform									6 Hr
-	- What is the Terraform Workflow?
-	- Terraform Key Concepts: Plan, Apply, and Destroy
-	- Resource Addressing in Terrafrom: Understanding Terraform Code
-	- Terraform Fundamentals
-		- Terraform State
-		- Terraform Variables and Outputs
-		- Terraform Provisioners
-	- HOL: Deploying a VM in AWS Using the Terraform Workflow
-	- HOL: Using Terraform Provisioner to Setup an Nginx Proxy on AWS
-	- Terraform Modules
-		- Accessing and Using Terraform Modules
-		- Interacting with Terraform Module Inputs and Outputs
-	- HOL: Building and Testing a Basic Terraform Module
-	- Built-in Funtions and Dynamics Blocks
-		- Terraform Built-in Functions
-		- Terraform Dynamic Blocks
-	- HOL: Using Terraform Dynamic Blocks and Built-in Functions to Deploy to AWS
+- What is the Terraform Workflow?
+- Terraform Key Concepts: Plan, Apply, and Destroy
+- Resource Addressing in Terrafrom: Understanding Terraform Code
+- Terraform Fundamentals
+	- Terraform State
+	- Terraform Variables and Outputs
+	- Terraform Provisioners
+- HOL: Deploying a VM in AWS Using the Terraform Workflow
+- HOL: Using Terraform Provisioner to Setup an Nginx Proxy on AWS
+- Terraform Modules
+	- Accessing and Using Terraform Modules
+	- Interacting with Terraform Module Inputs and Outputs
+- HOL: Building and Testing a Basic Terraform Module
+- Built-in Funtions and Dynamics Blocks
+	- Terraform Built-in Functions
+	- Terraform Dynamic Blocks
+- HOL: Using Terraform Dynamic Blocks and Built-in Functions to Deploy to AWS
 
 ## Configuration Management with Ansible				6 Hr
-	- What is Configuration Management?
-	- What is Ansible?
-	- Installation and Configuration
-		- HOL: Deploying Ansible
-		- HOL: Getting Started with Ansible
-		- HOL: Ad-Hoc Ansible Commands
-		- HOL: Working with Ansible Inventories
-	- Ansible Tasks
-	- Plays and Playbooks
-		- HOL: Ansible Playbooks: The Basics
-		- HOL: Working with Ansible Templates, Variables, and Facts
-		- HOL: Deploying Services Using Ansible
-		- HOL: Advanced Features in Ansible Playbooks
-	- Roles
-		- HOL: Working with Ansible Roles
-	- Ansible Vault
-		- HOL: Working with Confedential Data in Ansible
-	- Building Playbooks for Jenkins Master Setup
-	- Building Playbooks for Jenkins Worker Setup
-	- Building Jinja2 Templates for Ansible Playbooks
+- What is Configuration Management?
+- What is Ansible?
+- Installation and Configuration
+	- HOL: Deploying Ansible
+	- HOL: Getting Started with Ansible
+	- HOL: Ad-Hoc Ansible Commands
+	- HOL: Working with Ansible Inventories
+- Ansible Tasks
+- Plays and Playbooks
+	- HOL: Ansible Playbooks: The Basics
+	- HOL: Working with Ansible Templates, Variables, and Facts
+	- HOL: Deploying Services Using Ansible
+	- HOL: Advanced Features in Ansible Playbooks
+- Roles
+	- HOL: Working with Ansible Roles
+- Ansible Vault
+	- HOL: Working with Confedential Data in Ansible
+- Building Playbooks for Jenkins Master Setup
+- Building Playbooks for Jenkins Worker Setup
+- Building Jinja2 Templates for Ansible Playbooks
 
 
 # Containers and Orchestration
 
 ## Docker Community Edition Installation and Configuration   2 Hr
-	- Intalling Docker Community Edition
-	- Docker Basics
-		- Docker Commands
-		- Creating Containers
-		- Exposing Container Ports
-		- Executing Container Commands
-		- Docker Logging
-	- Networking
-	- Storage and Volumes
-	- Selecting a Storage Driver
-	- Running a Container
-	- Namespaces and Cgroups
-	- HOL: Installing and Configuring the Docker Engine
+- Intalling Docker Community Edition
+- Docker Basics
+	- Docker Commands
+	- Creating Containers
+	- Exposing Container Ports
+	- Executing Container Commands
+	- Docker Logging
+- Networking
+- Storage and Volumes
+- Selecting a Storage Driver
+- Running a Container
+- Namespaces and Cgroups
+- HOL: Installing and Configuring the Docker Engine
 
 ## Image Creation, Management, and Registry       3 Hr
-	- Introduction to Docker Images
-	- The Compoments of a Dockerfile
-	- More Dockerfile Directives 
-	- Building Efficient Images
-	- Managing Images
-	- Flattening a Docker Image to a Single Layer
-	- Introduction to Docker Registries
-	- Using Docker Registries
-	- HOL: Creating Your Own Docker Image
-	- HOL: Building a Private Docker Registry
-	- HOL: Building Crosplatform Images Using Multi-Stage Build
+- Introduction to Docker Images
+- The Compoments of a Dockerfile
+- More Dockerfile Directives
+- Building Efficient Images
+- Managing Images
+- Flattening a Docker Image to a Single Layer
+- Introduction to Docker Registries
+- Using Docker Registries
+- HOL: Creating Your Own Docker Image
+- HOL: Building a Private Docker Registry
+- HOL: Building Crosplatform Images Using Multi-Stage Build
 
 ## Docker Compose 								2 Hr
-	- Introduction to Docker Service
-	- Compose Commands
-	- Creating a Compose File
-	- Using Volumes and Networking with Compose
-	- HOL: Building a Microservices with Docker Compose
-	- 
+- Introduction to Docker Service
+- Compose Commands
+- Creating a Compose File
+- Using Volumes and Networking with Compose
+- HOL: Building a Microservices with Docker Compose
 
 
 ## Kubernetes - Container Orchestrator						10 Hr
-	- Kubernetes Fundamentals
-		- Kubernetes Fundamentals Intro
-		- Exploring Kubernetes Architecture
-		- Kubernetes Objects
-	- Kubernetes Networking
-	- Kubernetes Networking Basics
-	- Kubernetes Service Fundamentals
-	- Service Types
-
-	- Kubernetes Storage
-		- Kubernetes Storage Big Picture
-		- Persistent Volumes and Persistent Volume Claims
-		- Storage Clases
-	- Kubernetes Deployments
-	- Scaling Applications Automatically
-		- Horizontal Pod Autoscaler
-		- Cluster Autoscaler
-	- RBAC and Admission Control
-	- HOL: Working with Kubernetes Namespace
-	- HOL: Managing Kubernetes Applications With Deployments
-	- HOL: Exposing Kubernetes Pods Using Services
-	- HOL: Using Kubernetes Services with DNS
-	- HOL: Using Kubernetes Ingress
-	- HOL: Managing Container Storage With Kubernetes Volumes
-	- HOL: Using PersistentVolumes in Kubernetes
-	- Troubleshooting
-		- Kubernetes Troubleshooting Overview
-		- Checking Cluster and Node Logs
-		- Checking Containers Logs
-		- Troubleshooting Kubernetes Networkign Issues
-	- HOL: Troubleshooting a Broken Kubernetes Cluster
-	- HOL: Troubleshooting a Broker Kubernetes Application
+- Kubernetes Fundamentals
+	- Kubernetes Fundamentals Intro
+	- Exploring Kubernetes Architecture
+	- Kubernetes Objects
+- Kubernetes Networking
+- Kubernetes Networking Basics
+- Kubernetes Service Fundamentals
+- Service Types
+- Kubernetes Storage
+	- Kubernetes Storage Big Picture
+	- Persistent Volumes and Persistent Volume Claims
+	- Storage Clases
+- Kubernetes Deployments
+- Scaling Applications Automatically
+	- Horizontal Pod Autoscaler
+	- Cluster Autoscaler
+- RBAC and Admission Control
+- HOL: Working with Kubernetes Namespace
+- HOL: Managing Kubernetes Applications With Deployments
+- HOL: Exposing Kubernetes Pods Using Services
+- HOL: Using Kubernetes Services with DNS
+- HOL: Using Kubernetes Ingress
+- HOL: Managing Container Storage With Kubernetes Volumes
+- HOL: Using PersistentVolumes in Kubernetes
+- Troubleshooting
+	- Kubernetes Troubleshooting Overview
+	- Checking Cluster and Node Logs
+	- Checking Containers Logs
+	- Troubleshooting Kubernetes Networkign Issues
+- HOL: Troubleshooting a Broken Kubernetes Cluster
+- HOL: Troubleshooting a Broker Kubernetes Application
 
 # Monitoring and Logging
 ## Monitoring with Prometheous and Graphana			7 Hr
-	- Monitoring Basics
-		- Push or Pull
-		- Service Discovery
-		- HOL: Setting Up Prometheous and Adding Endpoints
-	- Infrastructure Monitoring
-		- Using the Node Exporter
-		- CPU Metrics
-		- Memory Metrics
-		- Disk Metrics
-		- File System Metrics
-		- Networking Metrics
-		- Load Metrics
-		- Using cAdvisor to Monitor Containers
-		- HOL: Monitoring Infrastructure and Containers with Prometheous
-	- Application Monitoring
-		- Using a Client Library
-		- Counters
-		- Gauges
-		- Summeries and Histograms
-		- HOL: Application Monitoring with Prometheous
-	- Manageing Alerts
-		- Recording Rules
-		- Alerting Rules
-		- Using Alertmanager
-		- Silences
-		- HOL: Using Alertmanager with Prometheous
-	- Visualization
-		- Adding a Dashboard
-		- Building a Panel
-		- HOL: Using Grafana to Visualize Prometheous Data
-	
+- Monitoring Basics
+	- Push or Pull
+	- Service Discovery
+	- HOL: Setting Up Prometheous and Adding Endpoints
+- Infrastructure Monitoring
+	- Using the Node Exporter
+	- CPU Metrics
+	- Memory Metrics
+	- Disk Metrics
+	- File System Metrics
+	- Networking Metrics
+	- Load Metrics
+	- Using cAdvisor to Monitor Containers
+	- HOL: Monitoring Infrastructure and Containers with Prometheous
+- Application Monitoring
+	- Using a Client Library
+	- Counters
+	- Gauges
+	- Summeries and Histograms
+	- HOL: Application Monitoring with Prometheous
+- Manageing Alerts
+	- Recording Rules
+	- Alerting Rules
+	- Using Alertmanager
+	- Silences
+	- HOL: Using Alertmanager with Prometheous
+- Visualization
+	- Adding a Dashboard
+	- Building a Panel
+	- HOL: Using Grafana to Visualize Prometheous Data
+
 
 ### DevOps and the Cloud 						8 Hr
 - DevOps and the Cloud
